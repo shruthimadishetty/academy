@@ -1,0 +1,11 @@
+/* Loader and error styles */
+.loader {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}

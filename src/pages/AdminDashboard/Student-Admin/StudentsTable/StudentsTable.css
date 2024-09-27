@@ -1,0 +1,102 @@
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  min-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.students-table th, .students-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.students-table th {
+  background-color: #009879;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.students-table td {
+  border-bottom: 1px solid #dddddd;
+}
+
+.students-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.students-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.students-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.students-table .icon {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.edit-icon {
+  color: #4CAF50;
+}
+
+.delete-icon {
+  color: #f44336;
+}
+
+/* Search bar */
+.header-student-table {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+}
+
+/* CSV Download Button */
+.btn-download {
+  padding: 10px 15px;
+  background-color: #009879;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.btn-download .faDownload {
+  margin-right: 10px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  border: none;
+  background-color: #f3f3f3;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #009879;
+  color: white;
+}

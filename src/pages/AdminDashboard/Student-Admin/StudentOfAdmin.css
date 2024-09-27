@@ -1,0 +1,21 @@
+.students-page {
+  padding: 20px;
+}
+
+.header-student-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-student-btn {
+  padding: 10px 20px;
+  background-color: #462fcb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.new-student-btn:hover {
+  background-color: #070aca;
+}

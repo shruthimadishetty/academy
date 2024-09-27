@@ -1,0 +1,81 @@
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #165cdf;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1;
+  }
+  
+  .sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li .icon {
+    margin-right: 10px;
+    color: #bdc3c7;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #3498db;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 10vh;
+    background-color: #7bb1f4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .content {
+    padding: 20px;
+    height: calc(90vh - 20px);
+    overflow-y: auto;
+  }
+  
